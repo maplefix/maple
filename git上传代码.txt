@@ -1,0 +1,11 @@
+1.进入代码文件夹：cd d:text
+2.执行指令：git init
+3.执行指令：git add .
+将所有文件添加到仓库
+4.执行指令：git commit -m "提交文件"
+双引号内是提交注释。
+
+ 关联github仓库
+1.到github仓库复制仓库地址
+2.执行指令：git remote add origin https://github.com/maplefix/maplefixGitHub
+3.执行指令：git push -u origin master
